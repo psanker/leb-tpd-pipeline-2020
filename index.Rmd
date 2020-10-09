@@ -1,0 +1,81 @@
+---
+title: "The Lebanon TPD Data Pipeline"
+subtitle: "<em>oh my!</em>"
+author: "Patrick Anker"
+institute: "Global TIES for Children"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      countIncrementalSlides: false
+      highlightLines: true
+params:
+  repo: "https://github.com/psanker/leb-tpd-pipeline-2020"
+---
+class: middle, center
+
+<style>
+pre {
+  overflow: hidden;
+}
+</style>
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+library(xaringanthemer)
+style_mono_accent(
+  text_font_google = google_font("Montserrat", "300", "300i"),
+  code_font_google = google_font("Fira Mono")
+)
+
+library(magrittr)
+```
+
+# Before we begin...
+
+All materials in this presentation can be downloaded from 
+
+**>> [this presentation's repository](`r params$repo`) <<**
+
+## 🚀
+
+---
+class: middle, center, inverse
+
+# Background
+
+---
+background-image: url('images/icon-grid.png')
+
+# The Tools We Use
+
+---
+background-image: url('images/icon-grid-labels.png')
+
+---
+background-image: url('images/icon-grid-authors.png')
+
+---
+background-image: url('images/pipeline-outline.png')
+
+---
+class: middle, center, inverse
+
+# Purpose
+
+## Build a low-cost _continuous integration_ scheme within the NYU IT structure that links together all stages in the research process to enhance transparency and reproducibility.
+
+---
+class: middle, center, inverse
+
+# Known Issues
+
+---
+
+.center[
+
+## Data Storage
+
+]
+

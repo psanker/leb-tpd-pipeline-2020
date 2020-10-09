@@ -1,0 +1,37 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# leb-tpd-pipeline-2020
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This is the repository containing an internal presentation about the Lebanon TPD Data Pipeline project, an example of future continuous integration work to streamline data flow for transparency and reproducibility.
+
+## Installation
+
+If you'd like to play around with the materials here, do these tasks: 
+
+1. `git clone` this repo into your folder of choice (you can also use the `Code > Download ZIP...` button). 
+1. Open the `.Rproj` file in RStudio
+1. Run this command in the console:
+
+```{r, eval=FALSE}
+source("install.R")
+```
+
+That should install all of the packages needed to build this presentation and run the example drake workflow.
+
+Note: it may yell at you about a "GitHub personal access token". See [this blurb in _Happy Git with R_](https://happygitwithr.com/github-pat.html#step-by-step) for more information and context.
